@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartTask Bot</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #172033;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 22px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 6px;
+    }
+
+    header p {
+      color: #cbd5e1;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px 15px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 18px;
+      box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    }
+
+    .card h2 {
+      margin-bottom: 12px;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .menu button {
+      border: 0;
+      padding: 16px;
+      border-radius: 12px;
+      background: #2563eb;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .menu button:hover {
+      opacity: .9;
+    }
+
+    .notice {
+      background: #eff6ff;
+      border-left: 4px solid #2563eb;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #64748b;
+    }
+
+    @media (max-width: 600px) {
+      .menu {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🤖 SmartTask Bot</h1>
+    <p>Task • Reward • Referral</p>
+  </header>
+
+  <main class="container">
+
+    <div class="card">
+      <h2>📢 Notice</h2>
+
+      <div class="notice">
+        SmartTask Bot-এর অফিসিয়াল সিস্টেমে স্বাগতম।
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📋 User Menu</h2>
+
+      <div class="menu">
+        <button>📋 Tasks</button>
+        <button>💰 Balance</button>
+        <button>💳 Deposit</button>
+        <button>💸 Withdraw</button>
+        <button>👥 Refer & Earn</button>
+        <button>📜 History</button>
+        <button>👤 My Profile</button>
+        <button>🆘 Support</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🔐 Admin Panel</h2>
+
+      <div class="menu">
+        <button>👥 Users</button>
+        <button>📋 Manage Tasks</button>
+        <button>💳 Deposit Requests</button>
+        <button>💸 Withdraw Requests</button>
+        <button>📢 Notice</button>
+        <button>📊 Statistics</button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    © 2026 SmartTask Bot
+  </footer>
+
+</body>
+</html>
